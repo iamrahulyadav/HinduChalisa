@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.prabhatkumardubey.hinduchalisa.MainActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:theme="@android:style/Theme.DeviceDefault.Wallpaper"
+        android:background="@mipmap/hanuman"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="@string/hanumanashtakvalue"
+            android:id="@+id/textView"
+            android:textColor="@color/abc_primary_text_material_light"
+            android:breakStrategy="high_quality"
+            android:fontFamily="@string/abc_action_bar_home_description"
+            android:autoText="false"
+            android:textSize="24sp"
+            android:visibility="visible"
+            android:singleLine="false"
+            android:nestedScrollingEnabled="true"
+            android:outlineProvider="paddedBounds"
+            android:elegantTextHeight="true"
+            android:ellipsize="marquee"
+            android:enabled="true"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textIsSelectable="false"
+            android:focusableInTouchMode="true"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center" />
+    </ScrollView>
+
+</RelativeLayout>

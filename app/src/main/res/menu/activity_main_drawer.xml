@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ganesh"
+            android:icon="?android:attr/colorMultiSelectHighlight"
+            android:title="Ganesh Chalisa" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="?android:attr/colorMultiSelectHighlight"
+            android:title="Shiv Chalisa" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="?android:attr/colorMultiSelectHighlight"
+            android:title="Hanuman Chalisa" />
+        <item
+            android:id="@+id/nav_hanumanashtak"
+            android:icon="?android:attr/colorMultiSelectHighlight"
+            android:title="Hanuman Ashtak" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="?android:attr/colorMultiSelectHighlight"
+            android:title="Durga Chalisa" />
+    </group>
+
+</menu>
